@@ -1,13 +1,13 @@
 body {
     font-family: sans-serif;
-    background-color: lightgrey;
+    background-color: white;
     margin: 0;
     padding: 0;
 }
 
 .header {
     width: 100vw;
-    height: 50px;
+    height: 65px;
     position: fixed;
     top: 0;
     left: 0;
@@ -15,16 +15,16 @@ body {
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 10px;
-    background-color: lightskyblue;
+    background-color: lightseagreen;
 }
 
-.choice {
+.thumbnail {
     width: 90px;
     height: 25px;
     top: 25px;
     margin: auto;
     margin-top: 25px;
-    background-color: pink;
+    background-color: seagreen;
 
 }
 

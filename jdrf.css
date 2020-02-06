@@ -11,65 +11,147 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: lightyellow;
+    background-color: wheat;
 }
 
-.choice {
-    width: 90px;
+.buttons {
+    width: 12vw;
     height: 25px;
-    top: 25px;
-    margin: auto;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: lightcoral;
+
+}
+
+.research-box {
+    width: 100vw;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+
+}
+
+.research {
+    width: 35vw;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 50px;
+    background-color: teal;
+}
+
+.image {
+    width: 50vw;
+    height: 500px;
+    margin-top: 35px;
+    background-color: wheat;
+}
+
+.info {
+    width: 30vw;
+    height: 150px;
+    margin-left: 10vw;
+    background-color: black;
+
+
+}
+
+.invest {
+    width: 30vw;
+    height: 100px;
     margin-top: 25px;
-    background-color: pink;
+    margin-left: 35vw;
+    background-color: lightcoral;
+}
+
+.curing {
+    width: 75vw;
+    height: 200px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: wheat;
+}
+
+.content {
+    width: 35vw;
+    height:55px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 15vw 15vw;
+    grid-template-rows: 50px;
+    grid-gap: 10px;
+}
+
+.tab {
+    background-color: black;
+}
+
+.text-box {
+    width: 80vw;
+    height: 350px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 150px 150px;
+    grid-gap: 15px;
+
+}
+
+.text {
+    background-color: teal;
+}
+
+.bio {
+    width: 65vw;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: lightcoral;
+}
+
+.pipeline {
+    width: 55vw;
+    height: 150px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: wheat;
+
+}
+
+.type {
+    width: 25vw;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: black;
 
 }
 
 .profile {
-    width: 50vw;
-    height: 250px;
-    margin: auto;
-    margin-top: 5vw;
-    background-color: lightseagreen;
-}
-
-.picture {
-    width: 75px;
-    height: 75px;
-    margin-left: 25px;
+    width: 55vw;
+    height: 150px;
+    margin-left: 100px;
     margin-top: 25px;
-    background-color: steelblue;
+    background-color: teal;
 }
 
-.info {
-    width: 25vw;
-    height: 100px;
+.trial {
+    width: 65vw;
+    height: 300px;
     margin: auto;
-    background-color: steelblue;
-
-
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: lightcoral;
 }
 
-.highlights {
-    background-color: pink;
-    width: 15vw;
+.footer {
+    width: 100vw;
     height: 50px;
-    margin-top: 15px;
-    margin-left: 20px;
+    top: 0;
+    left: 0;
+    background-color: wheat;
 }
 
-.posts {
-    background-color: lightgrey;
-    margin-left: 25vw;
-    margin-top: 2vw;
-    width: 50vw;
-    height: 150vw;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
-}
-
-.image {
-    background-color:lightskyblue;
-}
