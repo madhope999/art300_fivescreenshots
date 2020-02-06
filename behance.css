@@ -5,76 +5,58 @@ body {
     padding: 0;
 }
 
-.header {
+.top {
     width: 100vw;
-    height: 65px;
+    height: 25px;
     position: fixed;
+    margin: auto;
     top: 0;
     left: 0;
+    background-color: lightseagreen;
+
+}
+
+.header {
+    width: 100vw;
+    height: 50px;
+    margin-top: 25px;
+ 
     display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 10px;
+    grid-gap: 30px;
+    grid-template-columns: 80px 80px 80px 80px 80px 80px 80px 80px 75px;
+    grid-template-rows: 30px;
     background-color: lightseagreen;
 }
 
 .thumbnail {
-    width: 90px;
-    height: 25px;
-    top: 25px;
-    margin: auto;
-    margin-top: 25px;
-    background-color: seagreen;
+    background-color: lightskyblue;
 
 }
 
-.profile {
-    width: 50vw;
-    height: 250px;
+.button {
+    background-color: coral;
+}
+
+.title {
+    width: 100vw;
+    height: 10vw;
     margin: auto;
-    padding-top: 3px;
     margin-top: 50px;
-    background-color: lightseagreen;
-}
-
-.picture {
-    width: 75px;
-    height: 75px;
-    margin-left: 25px;
-    margin-top: 5px;
-    background-color: steelblue;
-}
-
-.info {
-    width: 25vw;
-    height: 100px;
-    margin: auto;
-    background-color: steelblue;
-
-
-}
-
-.highlights {
-    background-color: pink;
-    width: 15vw;
-    height: 50px;
-    margin-top: 15px;
-    margin-left: 20px;
+    background-color: white;
 }
 
 .posts {
-    background-color: lightgrey;
-    margin-left: 25vw;
-    margin-top: 2vw;
-    width: 50vw;
-    height: 150vw;
+    background-color: white;
+    margin: auto;
+    width: 100vw;
+    height: 450vw;
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
 }
 
 .image {
-    background-color:lightskyblue;
+    background-color:coral;
 }
