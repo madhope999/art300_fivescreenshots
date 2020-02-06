@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: lightgrey;
+    background-color: linen;
     margin: 0;
     padding: 0;
 }
@@ -11,11 +11,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 10px;
-    background-color: lightskyblue;
+    background-color: lightyellow;
 }
 
 .choice {
