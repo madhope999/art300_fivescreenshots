@@ -1,0 +1,153 @@
+body {
+    font-family: sans-serif;
+    background-color: mistyrose;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100vw;
+    height: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: lightsteelblue;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 5px;
+    margin: 30px;
+    padding: 30px;
+}
+
+.left-sidebar {
+    height: 1250px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1.5fr 1fr;
+    grid-gap: 3px;
+    background-color: steelblue;
+    padding: 15px;
+}
+
+.current {
+    background-color: lightsteelblue;
+    width: 250px;
+    height: 175px;
+    margin-top: 10px;
+}
+
+.challenge {
+    background-color: midnightblue;
+    width: 300px;
+    height: 175px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+
+}
+
+.want {
+    background-color: lightpink;
+    width: 325px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.shelves {
+    background-color: midnightblue;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+
+}
+
+.content {
+    border: 5px solid mistyrose;
+    
+}
+
+.read {
+    background-color: lightsteelblue;
+    padding-top: 275px;
+}
+
+.comment {
+    background-color: midnightblue;
+    height: 30px;
+    margin-left: 30px;
+}
+
+.recommend {
+    background-color: lightpink;
+    height: 275px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.review {
+    background-color: steelblue;
+    height: 350px;
+}
+
+.book {
+    background-color: lightpink;
+    height: 150px;
+}
+
+.discussion {
+    background-color: lightsteelblue;
+    height: 175px;
+    margin-left: 20px;
+}
+
+.info {
+    background-color: lightpink;
+    height: 350px;
+
+}
+
+.right-sidebar {
+    height: 700px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    background-color: steelblue;
+    padding: 5px;
+
+}
+
+.ad {
+    background-color: midnightblue;
+    height: 200px;
+    width: 250px;
+}
+
+.news {
+    background-color: lightpink;
+    height: 250px;
+    width: 250px;
+}
+
+.similar {
+    background-color: lightsteelblue;
+    height: 275px;
+    width: 250px;
+}
+
+.award {
+    background-color: lightpink;
+    height: 250px;
+    width: 250px;
+}
+
+.tabs {
+    background-color: lightsteelblue;
+    height: 275px;
+    width: 250px;
+}
+
+.footer {
+    background-color: lightsteelblue;
+    height: 75px;
+}
