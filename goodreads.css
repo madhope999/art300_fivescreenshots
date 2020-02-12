@@ -64,11 +64,11 @@ body {
 }
 
 .content {
-    border: 5px solid mistyrose;
-    
+    width: 650px;
 }
 
 .read {
+    border: 5px solid mistyrose;
     background-color: lightsteelblue;
     padding-top: 275px;
 }
@@ -80,6 +80,7 @@ body {
 }
 
 .recommend {
+    border: 5px solid mistyrose;
     background-color: lightpink;
     height: 275px;
     margin-top: 0;
@@ -87,13 +88,17 @@ body {
 }
 
 .review {
+    border: 5px solid mistyrose;
     background-color: steelblue;
-    height: 350px;
 }
 
 .book {
     background-color: lightpink;
-    height: 150px;
+    height: 225px;
+    width: 450px;
+    margin-left: 150px;
+    margin-top: 80px;
+    margin-bottom: 15px;
 }
 
 .discussion {
@@ -103,9 +108,9 @@ body {
 }
 
 .info {
+    border: 5px solid mistyrose;
     background-color: lightpink;
-    height: 350px;
-
+    height: 275px;
 }
 
 .right-sidebar {

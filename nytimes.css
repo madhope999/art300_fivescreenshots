@@ -1,0 +1,98 @@
+body {
+    font-family: sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.ad-banner {
+    background-color: teal;
+    height: 300px;
+    width: 100vw;
+}
+
+.ad {
+    background-color: navy;
+}
+
+
+
+.header {
+    background-color: lightsalmon;
+    height: 100px;
+    width: 75vw;
+    margin: auto;
+}
+
+.title {
+    margin: auto;
+    background-color: lightsalmon;
+}
+
+.brief-parent {
+    width: 75vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 100px 100px;
+    grid-gap: 5px;
+    margin: auto;
+    background-color:teal;
+}
+.brief {
+    background-color: navy;
+    width: 225px;
+    height: 50px;
+    margin: auto;
+}
+
+.stock {
+    background-color: tomato;
+    height: 70px;
+    width: 75px;
+    margin: auto;
+}
+
+.weather {
+    background-color: tomato;
+    height: 70px;
+    width: 75px;
+    margin: auto;
+}
+
+.after-first-ad {
+    width: 75vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 5px;
+    background-color: teal;
+}
+
+.topleft-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: orangered;
+}
+
+.content {
+    background-color: teal;
+    height: 100px;
+    width: 200px;
+}
+
+.video {
+    background-color: tomato;
+    width: 300px;
+    height: 250px;
+}
+
+.side-info {
+    background-color: lightsalmon;
+    height: 50px;
+    width: 200px;
+}
+
+.update {
+    background-color: navy;
+    height: 100px;
+    width: 200px;
+}
