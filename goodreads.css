@@ -18,12 +18,13 @@ body {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-gap: 5px;
-    margin: 30px;
+    margin: auto;
     padding: 30px;
 }
 
 .left-sidebar {
     height: 1250px;
+    width: 300px;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1.5fr 1fr;
     grid-gap: 3px;
@@ -108,10 +109,8 @@ body {
 }
 
 .right-sidebar {
-    height: 700px;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 5px;
+    height: 1750px;
+    width: 300px;
     background-color: steelblue;
     padding: 5px;
 
@@ -121,30 +120,35 @@ body {
     background-color: midnightblue;
     height: 200px;
     width: 250px;
+    margin: 10px;
 }
 
 .news {
     background-color: lightpink;
     height: 250px;
     width: 250px;
+    margin: 10px;
 }
 
 .similar {
     background-color: lightsteelblue;
     height: 275px;
     width: 250px;
+    margin: 10px;
 }
 
 .award {
     background-color: lightpink;
     height: 250px;
     width: 250px;
+    margin: 10px;
 }
 
 .tabs {
     background-color: lightsteelblue;
     height: 275px;
     width: 250px;
+    margin: 10px;
 }
 
 .footer {
