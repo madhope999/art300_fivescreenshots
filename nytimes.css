@@ -132,37 +132,35 @@ body {
     margin-right: 10px;
 }
 
-.topleft-content {
+.bottom-left-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: orangered;
     width: 55vw;
 }
 
-.bottom-left-content {
-    background-color: teal;
-    height: 200px;
-    width: 300px;
-    margin-left: 10px;
-}
-
-.video {
-    background-color: tomato;
+.pbs {
+    background-color:teal;
     width: 400px;
     height: 250px;
     margin-right: 10px;
 }
 
-.side-info {
+.image-two {
     background-color: lightsalmon;
     height: 50px;
     width: 300px;
     margin-left: 10px;
 }
 
-.update {
-    background-color: navy;
+.text {
+    background-color:teal;
     height: 75px;
     width: 400px;
     margin: 10px;
+}
+
+.banner {
+background-color: navy;
+
 }
