@@ -71,28 +71,98 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: orangered;
+    width: 55vw;
 }
 
 .content {
     background-color: teal;
-    height: 100px;
-    width: 200px;
+    height: 200px;
+    width: 300px;
+    margin-left: 10px;
 }
 
 .video {
     background-color: tomato;
-    width: 300px;
+    width: 400px;
     height: 250px;
+    margin-right: 10px;
 }
 
 .side-info {
     background-color: lightsalmon;
     height: 50px;
-    width: 200px;
+    width: 300px;
+    margin-left: 10px;
 }
 
 .update {
     background-color: navy;
+    height: 75px;
+    width: 400px;
+    margin: 10px;
+}
+
+.middle-content-parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap:5px;
+    background-color: teal;
+    width: 55vw;
+}
+
+.political {
+    background-color: navy;
+    height: 150px;
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.image-one {
+    background-color: lightsalmon;
+    height: 300px;
+    width: 300px;
+}
+
+.side-story {
+    background-color: tomato;
+    width: 150px;
     height: 100px;
-    width: 200px;
+    margin-right: 10px;
+}
+
+.topleft-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: orangered;
+    width: 55vw;
+}
+
+.bottom-left-content {
+    background-color: teal;
+    height: 200px;
+    width: 300px;
+    margin-left: 10px;
+}
+
+.video {
+    background-color: tomato;
+    width: 400px;
+    height: 250px;
+    margin-right: 10px;
+}
+
+.side-info {
+    background-color: lightsalmon;
+    height: 50px;
+    width: 300px;
+    margin-left: 10px;
+}
+
+.update {
+    background-color: navy;
+    height: 75px;
+    width: 400px;
+    margin: 10px;
 }
